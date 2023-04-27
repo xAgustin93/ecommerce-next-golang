@@ -1,0 +1,96 @@
+@import "~/src/scss/index.scss";
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px 20px;
+  z-index: 5;
+  background-color: $background-primary;
+  border-bottom: 1px solid $border-primary;
+}
+
+.left {
+  width: 20%;
+
+  img {
+    height: 50px;
+  }
+}
+
+.center {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
+  > div {
+    display: flex;
+    align-items: center;
+
+    &.active {
+      > span {
+        color: $text-primary;
+        font-weight: bold;
+      }
+      .number {
+        border-color: $primary;
+      }
+    }
+
+    &.success .number {
+      border-color: $primary;
+      background-color: $primary;
+      color: $primary;
+
+      i {
+        display: flex;
+        position: absolute;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        color: $text-light !important;
+      }
+    }
+
+    > span {
+      color: $text-secondary;
+    }
+
+    .number {
+      border: 3px solid $border-primary;
+      font-size: 12px;
+      border-radius: 100px;
+      height: 26px;
+      width: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 1px;
+      padding-top: 1px;
+      margin-right: 10px;
+
+      i {
+        display: none;
+      }
+    }
+
+    .space {
+      width: 100px;
+      height: 3px;
+      background-color: $border-primary;
+      margin-left: 15px;
+      margin-right: 20px;
+    }
+
+    &:last-of-type .space {
+      display: none;
+    }
+  }
+}
+
+.right {
+  width: 20%;
+}

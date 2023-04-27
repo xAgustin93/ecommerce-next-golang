@@ -1,0 +1,30 @@
+@import "~/src/scss/index.scss";
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $border-primary;
+  padding: 15px 10px;
+
+  &:last-of-type {
+    border: 0;
+    padding-bottom: 0;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+
+  .price {
+    width: 200px;
+    text-align: right;
+  }
+}

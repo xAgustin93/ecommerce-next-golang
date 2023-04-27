@@ -1,0 +1,15 @@
+.container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 30px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  > a {
+    padding-right: 15px;
+  }
+}

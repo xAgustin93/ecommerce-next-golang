@@ -1,0 +1,23 @@
+@import "~/src/scss/index.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: $background-secondary;
+
+  > div > span {
+    color: $text-secondary;
+    font-size: 12px;
+  }
+}
+
+.totalOrder {
+  margin-top: 20px;
+  text-align: right;
+  color: $primary;
+  font-weight: bold;
+  font-size: 25px;
+}

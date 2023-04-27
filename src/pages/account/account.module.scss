@@ -1,0 +1,22 @@
+@import "~/src/scss/index.scss";
+
+.tabs {
+  position: relative;
+  margin-top: 50px;
+
+  > div > div {
+    padding: 0 20px !important;
+
+    &:first-of-type {
+      border-right: 1px solid $border-primary;
+    }
+
+    > div {
+      border: 0 !important;
+
+      > a {
+        border: 0 !important;
+      }
+    }
+  }
+}

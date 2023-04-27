@@ -1,0 +1,13 @@
+@import "~/src/scss/index.scss";
+
+.adminButton {
+  display: flex;
+  align-items: center;
+  color: $text-primary;
+  margin-right: 30px;
+
+  > i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}

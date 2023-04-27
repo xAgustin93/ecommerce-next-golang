@@ -1,0 +1,11 @@
+.ui.form .field {
+  .ui.dropdown.selection.search {
+    padding: 14px;
+    border: 1px solid $border-primary;
+    border-radius: 6px;
+
+    .item {
+      padding: 14px !important;
+    }
+  }
+}

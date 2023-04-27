@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  margin: 0 -10px;
+}
+
+.category {
+  padding: 0 10px;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  > h3 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}

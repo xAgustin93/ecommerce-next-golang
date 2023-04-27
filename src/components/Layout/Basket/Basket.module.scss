@@ -1,0 +1,19 @@
+@import "~/src/scss/index.scss";
+
+.basket {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: $text-primary;
+
+  > i {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+
+  > div {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+  }
+}

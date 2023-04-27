@@ -1,0 +1,35 @@
+@import "~/src/scss/index.scss";
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+
+  > img {
+    height: 400px !important;
+    width: 400px !important;
+    border: 2px dashed $primary;
+    padding: 10px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+
+  > div {
+    width: 100%;
+    min-height: 200px;
+    border: 2px dashed $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+}

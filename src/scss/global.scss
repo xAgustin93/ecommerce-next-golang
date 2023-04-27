@@ -1,0 +1,30 @@
+@import "./index.scss";
+@import "./semantic-ui/index.scss";
+
+* {
+  color: $text-primary;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: $primary;
+
+  &:hover {
+    color: $primary-hover;
+  }
+}

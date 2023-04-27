@@ -1,0 +1,33 @@
+@import "~/src/scss/index.scss";
+
+.border {
+  border-bottom: 1px solid $border-primary;
+}
+
+.header {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.left {
+  > a {
+    display: block;
+    width: fit-content;
+    margin-right: 20px;
+
+    > img {
+      height: 50px;
+    }
+  }
+
+  .search {
+    width: 400px;
+  }
+}

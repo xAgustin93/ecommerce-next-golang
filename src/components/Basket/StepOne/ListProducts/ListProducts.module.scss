@@ -1,0 +1,55 @@
+@import "~/src/scss/index.scss";
+
+.basket > h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid $border-primary;
+  border-radius: 5px;
+  padding: 20px 10px;
+
+  > img {
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  > div {
+    display: flex;
+    width: 100%;
+
+    .info {
+      width: 100%;
+
+      p {
+        font-weight: bold;
+      }
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      > span {
+        margin: 0 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: $primary;
+      }
+
+      > i {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        &:hover {
+          color: $danger;
+        }
+      }
+    }
+  }
+}

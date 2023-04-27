@@ -1,0 +1,45 @@
+@import "~/src/scss/index.scss";
+
+.payments > h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.payment {
+  border: 1px solid $border-primary;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  > div {
+    display: flex;
+  }
+}
+
+.name {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.description {
+  color: $text-secondary;
+  font-size: 16px;
+}
+
+.selected {
+  border-color: $primary;
+  border-width: 2px;
+
+  .title {
+    color: $primary;
+  }
+}

@@ -1,0 +1,25 @@
+@import "~/src/scss/index.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.stock {
+  color: $warning;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: $primary;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}

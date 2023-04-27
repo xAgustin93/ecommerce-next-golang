@@ -1,0 +1,13 @@
+@import "~/src/scss/index.scss";
+
+.loading {
+  color: $text-primary !important;
+
+  &::before {
+    border-color: $border-primary !important;
+  }
+
+  &::after {
+    border-color: $text-primary transparent transparent !important;
+  }
+}

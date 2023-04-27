@@ -1,0 +1,32 @@
+@import "~/src/scss/index.scss";
+
+.container {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 70px);
+  background-color: $background-secondary;
+  padding: 20px;
+  overflow-y: scroll;
+  z-index: 1000;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.infoSearch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  height: 100%;
+
+  > a > div {
+    background-color: $background-primary;
+    height: 100%;
+    border-radius: 5px;
+  }
+}
